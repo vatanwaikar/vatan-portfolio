@@ -65,7 +65,7 @@ export default function Portfolio() {
           </p>
 
           <div className="hero-buttons">
-            <a className="btn-primary" href="/vatan-portfolio/resume.pdf" download>
+            <a className="btn-primary" href="/vatan-portfolio/c:\Users\hp\Downloads\Vresume.pdf.pdf" download>
               Download Resume
             </a>
             <a className="btn-outline" href="#contact">Get In Touch</a>
