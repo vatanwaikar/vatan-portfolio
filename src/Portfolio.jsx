@@ -38,11 +38,11 @@ export default function Portfolio() {
       {/* HERO SECTION */}
       <section className="hero">
         <div className="hero-content reveal">
-          <img
+          {/* <img
             className="profile-img"
             src="https://i.ibb.co/4p7SppS/profile.webp"
             alt="Profile"
-          />
+          /> */}
 
           <h1 className="title">Java Backend Developer + React Full Stack Engineer</h1>
           <p className="subtitle reveal">
@@ -50,9 +50,10 @@ export default function Portfolio() {
           </p>
 
           <div className="hero-buttons reveal">
-            <a className="btn-primary" href="/resume.pdf" download>
-              Download Resume
-            </a>
+            <a className="btn-primary" href="/vatan-portfolio/resume.pdf" download>
+  Download Resume
+</a>
+
             <a className="btn-outline" href="#contact">Contact Me</a>
           </div>
 
@@ -226,13 +227,41 @@ export default function Portfolio() {
       </section>
 
       {/* CONTACT */}
-      <section id="contact" className="section reveal">
-        <h2>Contact</h2>
-        <p>📧 vatanwaikar@gmail.com</p>
-        <p>📞 +91 7350200022</p>
-        <p>LinkedIn: linkedin.com/in/vatanwaikar</p>
-        <p>GitHub: github.com/vatanwaikar</p>
-      </section>
+<section id="contact" className="contact-section reveal">
+  <h2 className="contact-title">Get In Touch</h2>
+
+  <div className="contact-box">
+    <div className="contact-item">
+      <span className="c-icon">📧</span>
+      <a href="mailto:vatanwaikar@gmail.com">vatanwaikar@gmail.com</a>
+    </div>
+
+    <div className="contact-item">
+      <span className="c-icon">📞</span>
+      <a href="tel:+917350200022">+91 7350200022</a>
+    </div>
+
+    <div className="contact-item">
+      <span className="c-icon">🔗</span>
+      <a href="https://linkedin.com/in/vatanwaikar" target="_blank">
+        linkedin.com/in/vatanwaikar
+      </a>
+    </div>
+
+    <div className="contact-item">
+      <span className="c-icon">💻</span>
+      <a href="https://github.com/vatanwaikar" target="_blank">
+        github.com/vatanwaikar
+      </a>
+    </div>
+  </div>
+
+  <div className="contact-buttons">
+    <a className="c-btn primary" href="mailto:vatanwaikar@gmail.com">Email Me</a>
+    <a className="c-btn outline" href="https://wa.me/917350200022" target="_blank">WhatsApp</a>
+  </div>
+</section>
+
 
       {/* FLOATING BUTTONS */}
       <div className="fab-box">
