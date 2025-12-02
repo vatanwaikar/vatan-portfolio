@@ -23,7 +23,7 @@ export default function Portfolio() {
 
       {/* ================= NAVBAR ================= */}
       <nav className="navbar">
-        <div className="logo">Vatan Dev</div>
+        <div className="logo">Vatan Waikar</div>
 
         <div className={`nav-links ${menu ? "open" : ""}`}>
           <a href="#about" onClick={() => setMenu(false)}>About</a>
